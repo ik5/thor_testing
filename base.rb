@@ -1,9 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'bunder'
-
-bundler.setup
+require 'thor'
 
 class BaseCLI < Thor
 
